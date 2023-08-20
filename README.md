@@ -7,3 +7,6 @@ The operation that consist of simply opening the source file and displaying it i
 a valid quine. A trivial solution is a program whose source code is empty. Indeed, the
 execution of such a program produces for most languages no output, that is to say the
 source code of the program.
+
+## test using the following command
+`gcc main.c; ./a.out > tmp; diff tmp main.c`
