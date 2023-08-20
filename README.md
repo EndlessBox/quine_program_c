@@ -9,4 +9,4 @@ execution of such a program produces for most languages no output, that is to sa
 source code of the program.
 
 ## test using the following command
-gcc main.c; ./a.out > tmp; diff tmp main.c
+`gcc main.c; ./a.out > tmp; diff tmp main.c`
