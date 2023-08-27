@@ -10,4 +10,7 @@ source code of the program.
 
 ## test using the following command
 First : `gcc -Wall -Wextra -Werror first.c; ./a.out > tmp; diff tmp first.c`
+
 Second: `clear;gcc -Wall -Wextra -Werror second.c; ./a.out; diff second.c second_kid.c`
+
+Third: `clear; gcc -Wall -Wextra -Werror second.c; ./Sully; diff third.c Sully_0.c ; diff third.c Sully_1.c; diff third.c Sully_2.c; diff third.c Sully_3.c; diff third.c Sully_4.c`
