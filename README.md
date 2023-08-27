@@ -9,11 +9,11 @@ execution of such a program produces for most languages no output, that is to sa
 source code of the program.<br/>
 <br/>
 ## test using the following command>>
-First  => - description :  When executed, the program display on the standard output an output identical to the source code of the file used to compile the program.<br/>
-          - compile and run : `gcc -Wall -Wextra -Werror first.c; ./a.out > tmp; diff tmp first.c`<br/>
+First  =>&emsp- description :  When executed, the program display on the standard output an output identical to the source code of the file used to compile the program.<br/>
+&emsp&emsp- compile and run : `gcc -Wall -Wextra -Werror first.c; ./a.out > tmp; diff tmp first.c`<br/>
 
-Second => - description :  When executed, the program writes in a file named Grace_kid.c/Grace_kid.s the source code of the file used to compile the program (it doesn't containe a main function, Three defines only)<br/>
-          - compile and run : `clear;gcc -Wall -Wextra -Werror second.c; ./a.out; diff second.c second_kid.c`<br/>
+Second =>&emsp- description :  When executed, the program writes in a file named Grace_kid.c/Grace_kid.s the source code of the file used to compile the program (it doesn't containe a main function, Three defines only)<br/>
+&emsp&emsp- compile and run : `clear;gcc -Wall -Wextra -Werror second.c; ./a.out; diff second.c second_kid.c`<br/>
 
-Third =>  - description :  When executed the program writes in a file named Sully_X.c/Sully_X.s. The X will be an interger given in the source. Once the file is created, the program compiles this file and then runs the new                            program (which will have the name of its source file). Stopping the program depends on the file name : the resulting program will be executed only if the integer X is greater than or equal to 0.<br/>
-          - compile and run : `clear; gcc -Wall -Wextra -Werror second.c; ./Sully; diff third.c Sully_0.c ; diff third.c Sully_1.c; diff third.c Sully_2.c; diff third.c Sully_3.c; diff third.c Sully_4.c`<br/>
+Third => &emsp- description :  When executed the program writes in a file named Sully_X.c/Sully_X.s. The X will be an interger given in the source. Once the file is created, the program compiles this file and then runs the new                            program (which will have the name of its source file). Stopping the program depends on the file name : the resulting program will be executed only if the integer X is greater than or equal to 0.<br/>
+&emsp&emsp- compile and run : `clear; gcc -Wall -Wextra -Werror second.c; ./Sully; diff third.c Sully_0.c ; diff third.c Sully_1.c; diff third.c Sully_2.c; diff third.c Sully_3.c; diff third.c Sully_4.c`<br/>
