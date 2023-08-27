@@ -9,4 +9,5 @@ execution of such a program produces for most languages no output, that is to sa
 source code of the program.
 
 ## test using the following command
-`gcc main.c; ./a.out > tmp; diff tmp main.c`
+First : `gcc -Wall -Wextra -Werror first.c; ./a.out > tmp; diff tmp first.c`
+Second: `clear;gcc -Wall -Wextra -Werror second.c; ./a.out; diff second.c second_kid.c`
