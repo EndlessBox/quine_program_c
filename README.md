@@ -17,5 +17,5 @@ source code of the program.<br/>
 * compile and run : `clear;gcc -Wall -Wextra -Werror second.c; ./a.out; diff second.c second_kid.c`<br/>
 
 ### Third
-* description :  When executed the program writes in a file named Sully_X.c. The X will be an interger given in the source. Once the file is created, the program compiles this file and then runs the new                            program (which will have the name of its source file). Stopping the program depends on the file name : the resulting program will be executed only if the integer X is greater than or equal to 0.<br/>
-* compile and run : `clear; gcc -Wall -Wextra -Werror third.c; ./Sully; diff third.c Sully_0.c ; diff third.c Sully_1.c; diff third.c Sully_2.c; diff third.c Sully_3.c; diff third.c Sully_4.c`<br/>
+* description :  When executed the program writes in a file named Sully_X.c. The X will be an interger given in the source. Once the file is created, the program compiles this file and then runs the new program (which will have the name of its source file). Stopping the program depends on the file name : the resulting program will be executed only if the integer X is greater than or equal to 0.<br/>
+* compile and run : `clear; gcc -Wall -Wextra -Werror third.c -o Sully; ./Sully; diff third.c Sully_0.c ; diff third.c Sully_1.c; diff third.c Sully_2.c; diff third.c Sully_3.c; diff third.c Sully_4.c`<br/>
